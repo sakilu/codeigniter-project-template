@@ -1,0 +1,6 @@
+application/vendor
+*node_modules/
+*bower_components/
+.idea/
+.settings/
+*.DS_Store

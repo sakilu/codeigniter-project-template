@@ -1,0 +1,15 @@
+2015/05/17 06:08:13 [error] 842#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/17 06:08:17 [error] 842#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /js.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/17 06:09:15 [error] 842#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/17 06:09:20 [error] 842#0: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /js.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/17 06:11:29 [error] 842#0: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/17 06:12:03 [error] 842#0: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /js.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/17 14:20:29 [error] 942#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2015/05/18 00:53:41 [error] 51#0: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.59.3, server: _, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.59.103:8000"
+2015/05/18 09:51:51 [error] 51#0: *22 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'V8Js' not found in /var/www/html/application/controllers/Js.php on line 8
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/public/js.php:0
+PHP message: PHP   2. require_once() /var/www/html/public/js.php:292
+PHP message: PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:514}() /var/www/html/system/core/CodeIgniter.php:514
+PHP message: PHP   4. Js->index() /var/www/html/system/core/CodeIgniter.php:514" while reading response header from upstream, client: 192.168.59.3, server: _, request: "GET /js.php/js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.59.103:8000"
+2015/05/18 09:58:43 [error] 29#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.59.3, server: _, request: "GET /js.php/js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.59.103:8000"

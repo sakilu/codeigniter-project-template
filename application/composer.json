@@ -1,0 +1,13 @@
+{
+    "name": "root/application",
+    "authors": [
+        {
+            "name": "sakilu",
+            "email": "sakilu@gmail.com"
+        }
+    ],
+    "require": {
+      "facebook/php-sdk-v4" : "4.0.*",
+      "lusitanian/oauth": "~0.3"
+    }
+}
