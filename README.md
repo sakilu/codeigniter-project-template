@@ -1,5 +1,6 @@
 # codeigniter-project-template
 ###結構
+    codeigniter 3.0
     /public: 網站根目錄, nginx / apache根目錄設在此
     /docker: nginx, php設定檔所在地 執行docker script將會自動載入設定檔啟動伺服器
     /logs: 網站logs存放處 設定路徑 /docker/nginx/sites-enabled/*.conf #請參考nginx設定檔
