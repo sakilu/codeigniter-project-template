@@ -1,6 +1,4 @@
 # codeigniter-project-template
-===
-
 ###結構
     /public: 網站根目錄, nginx / apache根目錄設在此
     /docker: nginx, php設定檔所在地 執行docker script將會自動載入設定檔啟動伺服器
